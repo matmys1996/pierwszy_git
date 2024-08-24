@@ -13,7 +13,7 @@ public class DemoRestController {
     public void setMyCoach(@Qualifier("footballCoach") Coach myCoach){ //wskazuje jakiej klasy ma uzyć
         this.myCoach = myCoach;
     }
-
+//test commit
 //    public DemoRestController(Coach myCoach){
 //        this.myCoach = myCoach;
 //    }
